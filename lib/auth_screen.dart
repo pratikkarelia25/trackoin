@@ -30,12 +30,7 @@ class authScreen extends StatelessWidget {
                         final isAuthenticated = await localAuth.authenticate();
 
                         if (isAuthenticated) {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) {
-                              return Home();
-                            }),
-                          );
+                          Navigator.pushNamed(context, '/home');
                         }
                       },
                       child: Column(
