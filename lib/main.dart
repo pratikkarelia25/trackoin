@@ -12,13 +12,12 @@ class Main extends StatelessWidget {
     return MaterialApp(
       title: 'TracKoin',
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('TracKoin'),
-        ),
         body: SafeArea(
-          child: Column(),
-        ),
-      ),
-    );
+          child: Image(
+            image: AssetImage('images/TRACKOIN.png'),
+          ),
+        ),//body
+      ),//scaffold
+    );//material app
   }
 }
