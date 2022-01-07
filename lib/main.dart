@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'auth_screen.dart';
+import 'auth.dart';
 
 void main() {
-  runApp(const Main());
+  runApp(const authScreen());
 }
 
 class Main extends StatelessWidget {
@@ -10,6 +12,7 @@ class Main extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'TracKoin',
       home: Scaffold(
         appBar: AppBar(
