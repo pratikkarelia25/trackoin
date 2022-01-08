@@ -1,16 +1,31 @@
-# trackoin
+![Head](https://github.com/pratikkarelia25/trackoin/blob/44fd2a6db1cf60f0ce79accd599a54f119052fac/images/trackoin1.png)
 
-A new Flutter project.
+# Contents
+- [About](#about)
+- [Tech Stack](#tech-stack)
+- [Future Scope](#future-scope)
+- [Authors](#authors)
+## About
 
-## Getting Started
+## Problem Statement - Finance Management
+In the past few years, FinTech has emerged as a new
+model for financial innovation. With many emerging
+unicorns, we are assured that there is still a lot to develop
+in the FinTech ecosystem. Develop innovative financial
+solutions catering to customers and businesses.
 
-This project is a starting point for a Flutter application.
+## Description
+This is a flutter application focused on tracking and displaying stocks and cryptocurrencies.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- Dart
+- Flutter
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Future Scope
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Authors
+- [Pratik Karelia](https://github.com/pratikkarelia25)
+- [Aradhana Sridhar](https://github.com/AraSridhar)
+- [Shashwatha Karkera](https://github.com/shashwatha411)
