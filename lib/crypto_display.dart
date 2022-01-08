@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class Stocks extends StatelessWidget {
-  Stocks({Key? key}) : super(key: key);
-  Color _iconColor = Colors.white;
+class Crypto extends StatelessWidget {
+  const Crypto({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(

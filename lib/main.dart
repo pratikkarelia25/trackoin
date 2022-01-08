@@ -5,10 +5,7 @@ import 'package:trackoin/home.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Home(),
-    ),
+    Home(),
   );
 }
 

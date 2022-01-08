@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'stocks_display.dart';
+import 'crypto_display.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -44,10 +45,10 @@ class Home extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
               ),
-              child: const TabBarView(
+              child: TabBarView(
                 children: [
                   Stocks(),
-                  Text('Crypto'),
+                  Crypto(),
                 ],
               ),
             ),
