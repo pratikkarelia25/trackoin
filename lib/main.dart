@@ -4,7 +4,12 @@ import 'auth.dart';
 import 'package:trackoin/home.dart';
 
 void main() {
-  runApp(const authScreen());
+  runApp(
+    const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Home(),
+    ),
+  );
 }
 
 class Main extends StatelessWidget {
@@ -15,8 +20,8 @@ class Main extends StatelessWidget {
     return MaterialApp(
       initialRoute: '/',
       routes: {
-        '/': (context) => authScreen(),
-        '/home': (context) => Home(),
+        '/': (context) => const authScreen(),
+        '/home': (context) => const Home(),
       },
       debugShowCheckedModeBanner: false,
       title: 'TracKoin',

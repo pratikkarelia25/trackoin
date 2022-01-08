@@ -28,7 +28,6 @@ class authScreen extends StatelessWidget {
                     GestureDetector(
                       onTap: () async {
                         final isAuthenticated = await localAuth.authenticate();
-
                         if (isAuthenticated) {
                           Navigator.pushNamed(context, '/home');
                         }
