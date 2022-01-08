@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Stocks extends StatelessWidget {
   const Stocks({Key? key}) : super(key: key);
-
+  Color _iconColor = Colors.white;
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -20,6 +20,12 @@ class Stocks extends StatelessWidget {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
                         color: Color(0x50FFFFFF),
+                        icon: Icon(Icons.star, color: _iconColor),
+                        onPressed: () {
+                          setState( (){
+                            _iconColor = Colors.yellow;
+                          });
+                        }
                       ),
                       margin: EdgeInsets.fromLTRB(10, 0, 0, 0),
                       height: 180,
