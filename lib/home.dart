@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'stocks_display.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -22,11 +23,15 @@ class Home extends StatelessWidget {
               bottom: const TabBar(
                 indicatorColor: Colors.deepPurple,
                 tabs: [
-                  Tab(icon: Icon(Icons.bar_chart)),
+                  Tab(
+                    icon: Icon(Icons.bar_chart),
+                    text: 'Stocks',
+                  ),
                   Tab(
                     icon: Icon(
                       Icons.monetization_on_outlined,
                     ),
+                    text: 'Crypto',
                   ),
                 ],
               ),
@@ -41,7 +46,7 @@ class Home extends StatelessWidget {
               ),
               child: const TabBarView(
                 children: [
-                  Text('Stocks'),
+                  Stocks(),
                   Text('Crypto'),
                 ],
               ),
