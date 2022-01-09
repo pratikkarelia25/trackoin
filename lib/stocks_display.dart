@@ -28,7 +28,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'NASDAQ',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -38,7 +38,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 36,231.66',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -48,7 +48,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '-4.81%',
                               style: TextStyle(
                                   color: Colors.red,
                                   fontSize: 20,
@@ -73,7 +73,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'Nikkei 225',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -83,7 +83,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 28,478.56',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -93,7 +93,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '-9.31%',
                               style: TextStyle(
                                   color: Colors.red,
                                   fontSize: 20,
@@ -121,7 +121,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'Sensex',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -131,7 +131,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 59,744.65',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -141,9 +141,9 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '142.81%',
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.green,
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -166,7 +166,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'Adani Ports',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -176,7 +176,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 736.10',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -186,7 +186,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '-0.50%',
                               style: TextStyle(
                                   color: Colors.red,
                                   fontSize: 20,
@@ -214,7 +214,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'HDFC Life',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -224,7 +224,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 660.30',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -234,9 +234,9 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '2.07%',
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.green,
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -259,7 +259,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'Deutsche Boearse',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -269,7 +269,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 15,947.74',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -279,7 +279,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '-0.65%',
                               style: TextStyle(
                                   color: Colors.red,
                                   fontSize: 20,
@@ -307,7 +307,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'Jakarta Composite',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -317,7 +317,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 6,701.32',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -327,7 +327,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '0.72%',
                               style: TextStyle(
                                   color: Colors.red,
                                   fontSize: 20,
@@ -352,7 +352,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'Discovery Inc-B',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -362,7 +362,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 36.5',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -372,9 +372,9 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '17.62%',
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.green,
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -400,7 +400,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'Kospi',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -410,7 +410,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 2,954.89',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -420,9 +420,9 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '1.18%',
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.green,
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -445,7 +445,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'Hang Sang',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -455,7 +455,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 23,493.38',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -465,9 +465,9 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '1.82%',
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.green,
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -493,7 +493,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'Taiwan Weighted',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -503,7 +503,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 18,169.76',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -513,7 +513,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '-1.08%',
                               style: TextStyle(
                                   color: Colors.red,
                                   fontSize: 20,
@@ -538,7 +538,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'SGX Nifty',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -548,7 +548,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 17,925.00',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -558,9 +558,9 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '0.38%',
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.green,
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -586,7 +586,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'Strait Times',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -596,7 +596,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 3,205.26',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -606,7 +606,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '0.66%',
                               style: TextStyle(
                                   color: Colors.red,
                                   fontSize: 20,
@@ -631,7 +631,7 @@ class Stocks extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Bitcoin',
+                              'FTSE',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -641,7 +641,7 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '₹ 3,028,160.15',
+                              '₹ 7,485.28',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -651,9 +651,9 @@ class Stocks extends StatelessWidget {
                               height: 10,
                             ),
                             Text(
-                              '-3.06%',
+                              '0.47%',
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.green,
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
