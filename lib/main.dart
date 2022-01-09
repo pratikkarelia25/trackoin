@@ -5,7 +5,7 @@ import 'package:trackoin/home.dart';
 
 void main() {
   runApp(
-    Home(),
+    authScreen(),
   );
 }
 

@@ -12,47 +12,49 @@ class Home extends StatelessWidget {
       home: DefaultTabController(
         length: 2,
         child: SafeArea(
-          child: Scaffold(
-            extendBodyBehindAppBar: true,
-            appBar: AppBar(
-              backgroundColor: Color(0x00000000),
-              title: const Text(
-                'TRACKOIN',
-                style: TextStyle(
-                    fontFamily: 'Quicksand', letterSpacing: 5, fontSize: 25),
-              ),
-              bottom: const TabBar(
-                indicatorColor: Colors.deepPurple,
-                tabs: [
-                  Tab(
-                    icon: Icon(Icons.bar_chart),
-                    text: 'Stocks',
-                  ),
-                  Tab(
-                    icon: Icon(
-                      Icons.monetization_on_outlined,
+          child: Builder(
+            builder: (context) => Scaffold(
+              extendBodyBehindAppBar: true,
+              appBar: AppBar(
+                backgroundColor: Color(0x00000000),
+                title: const Text(
+                  'TRACKOIN',
+                  style: TextStyle(
+                      fontFamily: 'Quicksand', letterSpacing: 5, fontSize: 25),
+                ),
+                bottom: const TabBar(
+                  indicatorColor: Colors.deepPurple,
+                  tabs: [
+                    Tab(
+                      icon: Icon(Icons.bar_chart),
+                      text: 'Stocks',
                     ),
-                    text: 'Crypto',
-                  ),
-                ],
+                    Tab(
+                      icon: Icon(
+                        Icons.monetization_on_outlined,
+                      ),
+                      text: 'Crypto',
+                    ),
+                  ],
+                ),
+                //backgroundColor: Colors.purple,
               ),
-              //backgroundColor: Colors.purple,
-            ),
-            body: Container(
-              decoration: const BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage('images/main_bg.png'),
-                  fit: BoxFit.cover,
+              body: Container(
+                decoration: const BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage('images/main_bg.png'),
+                    fit: BoxFit.cover,
+                  ),
+                ),
+                child: TabBarView(
+                  children: [
+                    Stocks(),
+                    Crypto(),
+                  ],
                 ),
               ),
-              child: TabBarView(
-                children: [
-                  Stocks(),
-                  Crypto(),
-                ],
-              ),
+              bottomNavigationBar: const bottomNavBar(),
             ),
-            bottomNavigationBar: const bottomNavBar(),
           ),
         ),
       ),

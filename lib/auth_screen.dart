@@ -10,32 +10,58 @@ class authScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: SafeArea(
-          child: Container(
-            decoration: const BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage('images/TRACKOIN.png'),
-                fit: BoxFit.cover,
+      home: Builder(
+        builder: (context) => Scaffold(
+          body: SafeArea(
+            child: Container(
+              decoration: const BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage('images/TRACKOIN.png'),
+                  fit: BoxFit.cover,
+                ),
               ),
-            ),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    GestureDetector(
-                      onTap: () async {
-                        final isAuthenticated = await localAuth.authenticate();
-                        if (isAuthenticated) {
-                          Navigator.pushNamed(context, '/home');
-                        }
-                      },
-                      child: Column(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      GestureDetector(
+                        onTap: () async {
+                          final isAuthenticated =
+                              await localAuth.authenticate();
+                          if (isAuthenticated) {
+                            Navigator.push(
+                                context,
+                                new MaterialPageRoute(
+                                    builder: (context) => new Home()));
+                          }
+                        },
+                        child: Column(
+                          children: const [
+                            Icon(
+                              Icons.fingerprint,
+                              color: Colors.white,
+                              size: 50,
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Text(
+                              'Fingerprint',
+                              style: TextStyle(
+                                  fontFamily: 'Quicksand',
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                  color: Colors.white),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Column(
                         children: const [
                           Icon(
-                            Icons.fingerprint,
+                            Icons.password,
                             color: Colors.white,
                             size: 50,
                           ),
@@ -43,7 +69,7 @@ class authScreen extends StatelessWidget {
                             height: 10,
                           ),
                           Text(
-                            'Fingerprint',
+                            'Pin',
                             style: TextStyle(
                                 fontFamily: 'Quicksand',
                                 fontWeight: FontWeight.bold,
@@ -52,53 +78,33 @@ class authScreen extends StatelessWidget {
                           ),
                         ],
                       ),
-                    ),
-                    Column(
-                      children: const [
-                        Icon(
-                          Icons.password,
-                          color: Colors.white,
-                          size: 50,
-                        ),
-                        SizedBox(
-                          height: 10,
-                        ),
-                        Text(
-                          'Pin',
-                          style: TextStyle(
-                              fontFamily: 'Quicksand',
-                              fontWeight: FontWeight.bold,
-                              fontSize: 16,
-                              color: Colors.white),
-                        ),
-                      ],
-                    ),
-                    Column(
-                      children: const [
-                        Icon(
-                          Icons.expand_less,
-                          color: Colors.white,
-                          size: 50,
-                        ),
-                        SizedBox(
-                          height: 10,
-                        ),
-                        Text(
-                          'Other',
-                          style: TextStyle(
-                              fontFamily: 'Quicksand',
-                              fontWeight: FontWeight.bold,
-                              fontSize: 16,
-                              color: Colors.white),
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 150,
-                )
-              ],
+                      Column(
+                        children: const [
+                          Icon(
+                            Icons.expand_less,
+                            color: Colors.white,
+                            size: 50,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            'Other',
+                            style: TextStyle(
+                                fontFamily: 'Quicksand',
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16,
+                                color: Colors.white),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  SizedBox(
+                    height: 150,
+                  )
+                ],
+              ),
             ),
           ),
         ),

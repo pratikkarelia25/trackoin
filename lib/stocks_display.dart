@@ -143,7 +143,7 @@ class Stocks extends StatelessWidget {
                             Text(
                               '142.81%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
