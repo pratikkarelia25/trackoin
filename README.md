@@ -22,6 +22,8 @@ This is a flutter application focused on tracking and displaying stocks and cryp
 - Flutter
 
 ## Future Scope
+- Functionalities to trade stocks & cyrpto currencies securely and efficiently
+- Scalablity of the app
 
 
 
