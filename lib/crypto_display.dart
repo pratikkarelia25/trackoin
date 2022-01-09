@@ -236,7 +236,7 @@ class Crypto extends StatelessWidget {
                             Text(
                               '1.17%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -281,7 +281,7 @@ class Crypto extends StatelessWidget {
                             Text(
                               '1.89%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -329,7 +329,7 @@ class Crypto extends StatelessWidget {
                             Text(
                               '2.25%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -374,7 +374,7 @@ class Crypto extends StatelessWidget {
                             Text(
                               '4.21%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -422,7 +422,7 @@ class Crypto extends StatelessWidget {
                             Text(
                               '1.84%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -467,7 +467,7 @@ class Crypto extends StatelessWidget {
                             Text(
                               '0.59%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -515,7 +515,7 @@ class Crypto extends StatelessWidget {
                             Text(
                               '2.71%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -608,7 +608,7 @@ class Crypto extends StatelessWidget {
                             Text(
                               '4.90%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -653,7 +653,7 @@ class Crypto extends StatelessWidget {
                             Text(
                               '2.15%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )

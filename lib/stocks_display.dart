@@ -236,7 +236,7 @@ class Stocks extends StatelessWidget {
                             Text(
                               '2.07%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -329,7 +329,7 @@ class Stocks extends StatelessWidget {
                             Text(
                               '0.72%',
                               style: TextStyle(
-                                  color: Colors.red,
+                                  color: Color(0xFFFF0000),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -374,7 +374,7 @@ class Stocks extends StatelessWidget {
                             Text(
                               '17.62%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -422,7 +422,7 @@ class Stocks extends StatelessWidget {
                             Text(
                               '1.18%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -467,7 +467,7 @@ class Stocks extends StatelessWidget {
                             Text(
                               '1.82%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -560,7 +560,7 @@ class Stocks extends StatelessWidget {
                             Text(
                               '0.38%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
@@ -653,7 +653,7 @@ class Stocks extends StatelessWidget {
                             Text(
                               '0.47%',
                               style: TextStyle(
-                                  color: Colors.green,
+                                  color: Color(0xFF7CFC00),
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             )
