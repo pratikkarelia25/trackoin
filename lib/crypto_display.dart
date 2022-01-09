@@ -78,6 +78,12 @@ class Crypto extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
+                            Image(
+                              image: AssetImage('images/solana.png'),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'Solana',
                               style: TextStyle(
@@ -126,6 +132,12 @@ class Crypto extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
+                            Image(
+                              image: AssetImage('images/rsz_bitcoin.png'),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'Ethereum',
                               style: TextStyle(
@@ -171,6 +183,12 @@ class Crypto extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
+                            Image(
+                              image: AssetImage('images/cardano.png'),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'Cardano',
                               style: TextStyle(
@@ -218,7 +236,12 @@ class Crypto extends StatelessWidget {
                         ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
+                          children: [ Image(
+                            image: AssetImage('images/tether.png'),
+                          ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'Tether',
                               style: TextStyle(
@@ -264,6 +287,12 @@ class Crypto extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
+                            Image(
+                              image: AssetImage('images/dogecoin.png'),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'Dodgecoin',
                               style: TextStyle(
@@ -312,6 +341,12 @@ class Crypto extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
+                            Image(
+                              image: AssetImage('images/shibainu.png'),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'Shiba Inu',
                               style: TextStyle(
@@ -405,6 +440,12 @@ class Crypto extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
+                            Image(
+                              image: AssetImage('images/stellar.png'),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'Stellar',
                               style: TextStyle(
@@ -450,6 +491,12 @@ class Crypto extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
+                            Image(
+                              image: AssetImage('images/magicinternetmoney.png'),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'Magic Internet Money',
                               style: TextStyle(
@@ -497,7 +544,12 @@ class Crypto extends StatelessWidget {
                         ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
+                          children: [ Image(
+                            image: AssetImage('images/ftxtoken.png'),
+                          ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'FTX Token',
                               style: TextStyle(
@@ -543,6 +595,12 @@ class Crypto extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
+                            Image(
+                              image: AssetImage('images/decentraland.png'),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'Decentraland',
                               style: TextStyle(
@@ -590,7 +648,12 @@ class Crypto extends StatelessWidget {
                         ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
+                          children: [ Image(
+                            image: AssetImage('images/harmony.png'),
+                          ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'Harmony',
                               style: TextStyle(
@@ -635,7 +698,12 @@ class Crypto extends StatelessWidget {
                         height: 180,
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
+                          children: [ Image(
+                            image: AssetImage('images/monero.png'),
+                          ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'Monero',
                               style: TextStyle(
