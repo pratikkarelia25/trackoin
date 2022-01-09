@@ -133,7 +133,7 @@ class Crypto extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Image(
-                              image: AssetImage('images/rsz_bitcoin.png'),
+                              image: AssetImage('images/etherium.png'),
                             ),
                             SizedBox(
                               height: 10,
@@ -392,6 +392,12 @@ class Crypto extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
+                            Image(
+                              image: AssetImage('images/polygon.png'),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Text(
                               'Polygon',
                               style: TextStyle(
