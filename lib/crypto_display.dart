@@ -27,6 +27,7 @@ class Crypto extends StatelessWidget {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
+                            Image(image: AssetImage('images/rsz_bitcoin.png')),
                             Text(
                               'Bitcoin',
                               style: TextStyle(
